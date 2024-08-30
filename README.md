@@ -24,7 +24,7 @@ Para configurar el entorno de desarrollo:
 3. Ejecute `poetry install` para instalar las dependencias del proyecto.
 
 ## Renombrar el contenedor principal de código
-El código se encuentra por defecto bajo el directorio **`python_poetry_template`**, debemos renombrarla, al nombre deseado.
+El código se encuentra por defecto bajo el directorio **`cbbio_learning`**, debemos renombrarla, al nombre deseado.
 
 ## Configuración de *pyproject.toml* 
 Asegúrate de que tu archivo **`pyproject.toml`** esté correctamente configurado. Esto incluye especificar el nombre del paquete, la versión, la descripción, los autores y cualquier otra información relevante que PyPI necesite para mostrar tu paquete correctamente.
@@ -51,7 +51,7 @@ coverage = "poetry run coverage run -m --source=<ruta-directorio-principal> pyte
 En el fichero de configuración de sphinx **`docs/source/conf.py`** debemos configurar con los valores de nuestro proyecto.
 
 ```python
-project = 'python_poetry_template'
+project = 'cbbio_learning'
 copyright = '2023, frapercan'
 author = 'frapercan'
 ```
